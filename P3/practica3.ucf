@@ -1,0 +1,37 @@
+# Xilinx Spartan3 Starter Board (Rev E) UCF file
+
+# Reloj
+NET "clk"	LOC = "P8";
+# NET clk TNM_NET = clk;
+# TIMESPEC TSclk = PERIOD clk 20 ns HIGH 50%;
+
+# Pulsadores (Placa pequeña)
+NET "rst" LOC = "A13";
+NET "intro" LOC = "E11";
+
+# LED para indicar el LOCK
+NET "lock" LOC = "J14";
+
+# User Switches (Mas Significativo: Mas a la izquierda)
+NET "switch<7>"	LOC = "P12";
+NET "switch<6>"	LOC = "J1";
+NET "switch<5>"	LOC = "H1";
+NET "switch<4>"	LOC = "H3";
+NET "switch<3>"	LOC = "G2";
+NET "switch<2>"	LOC = "K15";
+NET "switch<1>"	LOC = "K16";
+NET "switch<0>"	LOC = "F15";
+
+
+# 8 Segmentos / Derecho
+NET "segs<7>"	LOC = "E2";
+NET "segs<6>"	LOC = "E1";
+NET "segs<5>"	LOC = "F3";
+NET "segs<4>"	LOC = "F2";
+NET "segs<3>"	LOC = "G4";
+NET "segs<2>"	LOC = "G3";
+NET "segs<1>"	LOC = "G1";
+NET "segs<0>"	LOC = "H4";
+
+
+

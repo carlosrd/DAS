@@ -1,0 +1,21 @@
+# Xilinx Spartan3 Starter Board (Rev E) UCF file
+
+# User Switches
+NET "switch<0>"		LOC = "P12";
+NET "switch<1>"		LOC = "J1";
+NET "switch<2>"		LOC = "H1";
+NET "switch<3>"		LOC = "H3";
+NET "switch<4>"		LOC = "G2";
+NET "switch<5>"		LOC = "K15";
+NET "switch<6>"		LOC = "K16";
+NET "switch<7>"		LOC = "F15";
+
+# LEDs
+NET "leds<0>"		LOC = "L5";
+NET "leds<1>"		LOC = "N2";
+NET "leds<2>"		LOC = "M3";
+NET "leds<3>"		LOC = "N1";
+NET "leds<4>"		LOC = "T13";
+NET "leds<5>"		LOC = "L15";
+NET "leds<6>"		LOC = "J13";
+NET "leds<7>"		LOC = "H15";

@@ -1,0 +1,34 @@
+# Xilinx Spartan3 Starter Board (Rev E) UCF file
+
+# Reloj
+NET "clk" 			LOC = "P8";
+
+# Pulsadores (Placa pequeña)
+NET "startStop" 	LOC = "E11";
+NET "puestaCero" 	LOC = "A13";
+
+# Pulsadores (Placa Standart)
+NET "rst" 			LOC = "M3";
+
+# 8 Segmentos / Izquierdo
+NET "leftSegs<7>"	LOC = "H14";
+NET "leftSegs<6>"	LOC = "M4";
+NET "leftSegs<5>"	LOC = "P1";
+NET "leftSegs<4>"	LOC = "N3";
+NET "leftSegs<3>"	LOC = "M15";
+NET "leftSegs<2>"	LOC = "H13";
+NET "leftSegs<1>"	LOC = "G16";
+NET "puntoDec"		LOC = "N15";	# El puntoDecimal lo conectamos aparte en el de la izquierda
+
+# 8 Segmentos / Derecho
+NET "rightSegs<7>"	LOC = "E2";
+NET "rightSegs<6>"	LOC = "E1";
+NET "rightSegs<5>"	LOC = "F3";
+NET "rightSegs<4>"	LOC = "F2";
+NET "rightSegs<3>"	LOC = "G4";
+NET "rightSegs<2>"	LOC = "G3";
+NET "rightSegs<1>"	LOC = "G1";
+NET "rightSegs<0>"	LOC = "H4";
+
+# Pulsador 1
+

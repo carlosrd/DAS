@@ -1,0 +1,31 @@
+# Xilinx Spartan3 Starter Board (Rev E) UCF file
+
+# User Switches
+NET "switch<0>"		LOC = "P12";
+NET "switch<1>"		LOC = "J1";
+NET "switch<2>"		LOC = "H1";
+NET "switch<3>"		LOC = "H3";
+NET "switch<4>"		LOC = "G2";
+NET "switch<5>"		LOC = "K15";
+NET "switch<6>"		LOC = "K16";
+NET "switch<7>"		LOC = "F15";
+
+# 8 Segmentos / Izquierdo
+NET "leftSeg<7>"	LOC = "H14";
+NET "leftSeg<6>"	LOC = "M4";
+NET "leftSeg<5>"	LOC = "P1";
+NET "leftSeg<4>"	LOC = "N3";
+NET "leftSeg<3>"	LOC = "M15";
+NET "leftSeg<2>"	LOC = "H13";
+NET "leftSeg<1>"	LOC = "G16";
+NET "leftSeg<0>"	LOC = "N15";
+
+# 8 Segmentos / Derecho
+NET "rightSeg<7>"	LOC = "E2";
+NET "rightSeg<6>"	LOC = "E1";
+NET "rightSeg<5>"	LOC = "F3";
+NET "rightSeg<4>"	LOC = "F2";
+NET "rightSeg<3>"	LOC = "G4";
+NET "rightSeg<2>"	LOC = "G3";
+NET "rightSeg<1>"	LOC = "G1";
+NET "rightSeg<0>"	LOC = "H4";

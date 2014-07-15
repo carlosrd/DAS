@@ -1,0 +1,27 @@
+# Xilinx Spartan3 Starter Board (Rev E) UCF file
+
+# Reloj
+NET "clk" 			LOC = "P8";
+
+NET "hSyncQ"		LOC = "B7";
+NET "vSyncQ"		LOC = "D8";
+
+NET "RGBQ<0>"		LOC = "C8";
+NET "RGBQ<1>"		LOC = "D6";
+NET "RGBQ<2>"		LOC = "B1";
+
+NET "RGBQ<3>"		LOC = "A8";
+NET "RGBQ<4>"		LOC = "A5";
+NET "RGBQ<5>"		LOC = "C3";
+
+NET "RGBQ<6>"		LOC = "C9";
+NET "RGBQ<7>"		LOC = "E7";
+NET "RGBQ<8>"		LOC = "D5";
+
+# Teclado PS/2
+NET "ps2Clk" 		LOC = "B16";
+NET "ps2Data" 		LOC = "E13";
+
+# Pulsadores (Placa Standart)
+NET "rst" 			LOC = "H4";
+

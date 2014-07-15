@@ -1,0 +1,16 @@
+# Xilinx Spartan3 Starter Board (Rev E) UCF file
+
+# Reloj
+NET "clk" 			LOC = "P8";
+
+# Teclado PS/2
+NET "ps2Clk" 		LOC = "B16";
+NET "ps2Data" 		LOC = "E13";
+
+# Pulsadores (Placa Standart)
+NET "rst" 			LOC = "H4";
+
+# Altavoz
+NET altavoz			LOC = "L5";
+
+
