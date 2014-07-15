@@ -13,7 +13,7 @@ Show state of switches over the leds
 
 Show hexadecimal value of switches over the 7-segment displays.
 
-### Project 3 - Electronic Lock Control
+### Project 3 - Electronic-Lock Control
 
 Control of an electronic lock based on a numeric key. 
 
